@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
-  name: jenne
+  name: jenne-iaac
   namespace: mathieu-argo
 spec:
   description: final deploy
