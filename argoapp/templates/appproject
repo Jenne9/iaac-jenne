@@ -1,0 +1,12 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: jenne
+  namespace: mathieu-argo
+spec:
+  description: final deploy
+  destinations:
+  - name: in-cluster
+    namespace: jenne
+    server: https://kubernetes.default.svc
+status: {}
