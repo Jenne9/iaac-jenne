@@ -3,15 +3,15 @@ items:
 - apiVersion: argoproj.io/v1alpha1
   kind: Application
   metadata:
-    name: jenne
+    name: iaac-jenne
     namespace: mathieu-argo
   spec:
     destination:
-      namespace: mathieu-argo
+      namespace: jenne
       server: https://kubernetes.default.svc
     project: iaac-jenne
     source:
-      path: argoapp
+      path: helmchart
       repoURL: git@github.com:O-clock-Hati/challenge-final-Jenne9.git
       targetRevision: HEAD
   
