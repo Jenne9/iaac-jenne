@@ -9,9 +9,9 @@ spec:
       server: https://kubernetes.default.svc
     project: jenne-iaac
     sources:
-      helm:
-        valueFiles:
-        - values.yaml
+      - helm:
+          valueFiles:
+          - values.yaml
     path: argoapp
     repoURL: https://github.com/O-clock-Hati/challenge-final-Jenne9.git
     targetRevision: HEAD
