@@ -1,3 +1,4 @@
 replicaCount: 1
-image: jenne09/challenge-final-back:latest
-containerName: challenge-final-back
+containers:
+  - image: jenne09/challenge-final-back:latest
+  - containerName: challenge-final-back
