@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: jenne-iaac
+  name: jenne-iaac2
   namespace: mathieu-argo
 spec:
     destination:
       namespace: jenne
       server: https://kubernetes.default.svc
-    project: jenne-iaac
+    project: jenne-iaac2
     source:
       helm:
         valueFiles:
