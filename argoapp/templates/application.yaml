@@ -5,14 +5,14 @@ metadata:
   namespace: mathieu-argo
 spec:
     destination:
+      namespace: jenne
       server: https://kubernetes.default.svc
-      namespace: {{ .Values.namespace }}
     project: jenne-iaac
     source:
       helm:
         valueFiles:
         - values.yaml
-    path: helmchart
+    path: .
     repoURL: https://github.com/O-clock-Hati/challenge-final-Jenne9.git
     targetRevision: HEAD
   
