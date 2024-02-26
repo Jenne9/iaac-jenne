@@ -13,6 +13,6 @@ spec:
         valueFiles:
           - values.yaml
     repoURL: https://github.com/O-clock-Hati/challenge-final-Jenne9.git
-    path: helmchart
+    path: argoapp
     targetRevision: HEAD
   
