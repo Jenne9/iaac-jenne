@@ -7,6 +7,6 @@ spec:
   description: final deploy
   destinations:
   - name: in-cluster
-    namespace: jenne
+    namespace: mathieu-argo
     server: https://kubernetes.default.svc
 status: {}
