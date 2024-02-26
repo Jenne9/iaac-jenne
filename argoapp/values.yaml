@@ -1,3 +1,2 @@
 replicaCount: 1
-image: jenne09/challenge-final-back:latest
-name: challenge-final-back
+namespace
