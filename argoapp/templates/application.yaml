@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: jenne-iaac
+  name: jenne-iaac1
   namespace: mathieu-argo
 spec:
     destination:
