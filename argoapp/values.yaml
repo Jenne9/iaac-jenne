@@ -1,4 +1,4 @@
 replicaCount: 1
 containers:
   - image: jenne09/challenge-final-back:latest
-  - containerName: challenge-final-back
+    name: challenge-final-back
