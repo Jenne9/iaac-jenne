@@ -9,8 +9,8 @@ spec:
       namespace: jenne
     project: jenne-iaac
     source:
-    - helm:
-        valueFiles:
+      helm:
+      valueFiles:
         - values.yaml
     path: helmchart
     repoURL: https://github.com/O-clock-Hati/challenge-final-Jenne9.git
