@@ -5,7 +5,7 @@ metadata:
   namespace: mathieu-argo
 spec:
     destination:
-      namespace: jenne
+      namespace: mathieu-argo
       server: https://kubernetes.default.svc
     project: jenne-iaac
     source:
