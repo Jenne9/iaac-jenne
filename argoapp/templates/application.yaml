@@ -6,7 +6,7 @@ metadata:
 spec:
     destination:
       server: https://kubernetes.default.svc
-      namespace: jenne
+      namespace: {{ .Values.namespace }}
     project: jenne-iaac
     source:
       helm:
